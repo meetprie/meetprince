@@ -1,0 +1,409 @@
+@media (max-width: 1800px){
+	.container{
+		max-width: 1440px;
+	}
+	.hi-left-block h2{
+		font-size: 50px;
+	}
+	.hi-left-block h1{
+		font-size: 60px;
+	}
+	.hi-left-block h3{
+		font-size: 22px;
+	}
+	.btn, button{
+		font-size: 18px;
+	}
+	html body{
+		padding-top: 134px;
+	}
+	.hi-sec {
+		background-color: #f8f8f8;
+		height: calc(100vh - 112px);
+		margin-top: -20px;
+		display: flex;
+		align-items: center;
+	}
+	body p{
+		font-size: 14px;
+	}
+	.skills-block ul li {
+		margin-bottom: 20px;
+	}
+	.text-title {
+		font-size: 18px;
+	}
+}
+@media (max-width: 1440px){
+	.container{
+		max-width: 1200px;
+	}
+	.header-bottom::after {
+		bottom: -8%;
+	}
+	
+}
+@media (max-width: 1200px){
+	.container{
+		max-width: 100%;
+	}
+	.menu-block ul li a {
+		font-size: 16px;
+	}	
+	.topbar-left-info ul li a {
+		font-size: 14px;
+	}
+	.topbar-left-info ul li {
+		margin-right: 10px;
+		padding-right: 10px;
+	}
+	section {
+		padding-top: 60px;
+		padding-bottom: 60px;
+	}
+	section.mylift-sec,
+	section.work-sec{
+		padding-top: 80px;
+		padding-bottom: 80px;
+	}
+	section.about-me-sec{
+		padding-bottom: 80px;
+	}
+	.mission-sec{
+		padding-bottom: 80px;
+	}
+	section.contact-sec{
+		padding-top: 80px;
+	}
+	.hi-left-block h2{
+		font-size: 30px;
+	}
+	.hi-left-block h1{
+		font-size: 36px;
+	}
+	.hi-left-block h3 {
+		font-size: 16px;
+	}
+	.btn, button {
+		font-size: 16px;
+	}
+	.resume-download {
+		margin-top: 20px;
+	}
+	.sec-heading h2 {
+		font-size: 34px;
+	}
+	.sec-heading span {
+		width: 10px;
+		height: 10px;
+		bottom: -5px;
+	}
+	.sec-heading span::before,
+	.sec-heading span::after{
+		width: 3px;
+		height: 3px;
+	}
+	.me-heading {
+		font-size: 34px;
+	}
+	.text-title{
+		font-size: 16px;
+	}
+	body p{
+		font-size: 14px;
+	}
+	.progress-bar {
+		height: 7px;
+		margin-top: 5px;
+	}
+	.skills-block ul li {
+		margin-bottom: 14px;
+	}
+	.about-in-icon h5{
+		font-size: 14px;
+		margin-right: 10%;
+	}
+	.about-in-icon ul li a {
+		font-size: 14px;
+	}
+	.about-in-icon h5::before {
+		right: -45%;
+		width: 30px;
+	}
+	.exprience-sec::after,
+	.mission-sec:after{
+		height: 30px;
+		bottom: -30px;
+	}
+	.footer-top::before,
+	.mission-sec:before{
+		height: 30px;
+		top: -30px;
+	}
+	.contact-sec::after,
+	.mylift-sec::before,
+	.work-sec:before,
+	.whatido-sec::after,
+	.about-me-sec::before {
+		height: 30px;
+	}
+	.mission-info > .missionimg {
+		width: 35%;
+		top: -120%;
+	}
+	.mylift-block > ul > li h3 {
+		font-size: 28px;
+		margin-bottom: 10px;
+	}
+	.hobbys > li {
+		font-size: 18px;
+		margin-bottom: 5px;
+	}
+	.footer-bottom p {
+		font-size: 16px;
+	}
+	.mylift-block > ul > li h3 {
+		font-size: 24px;
+	}
+	.mylift-block > ul > li p {
+		margin-bottom: 4px;
+	}
+	.footer-info ul li h5 {
+		font-size: 18px;
+	}
+	.footer-info ul li i {
+		font-size: 22px;
+		margin-bottom: 15px;
+	}
+	.expertise-info li p {
+		padding-left: 25px;
+	}
+	.expertise-info li:first-child p {
+		font-size: 14px;
+	}
+	.field > textarea, .field > input {
+		height: 35px;
+		font-size: 14px;
+		padding-left: 0;
+	}
+}
+@media (max-width: 980px){
+	.work-list ul li,
+	.whatido-block ul li {
+		width: 50%;
+		padding-bottom: 30px;
+	}
+	.work-list ul li > div {
+		height: 250px;
+	}
+	.footer-bottom p {
+		font-size: 14px;
+	}
+}
+@media (max-width: 767px){
+	.topbar-left-info ul li a i {
+		margin-right: 6px;
+	}
+	.topbar-left-info ul li a {
+		font-size: 12px;
+	}
+	.topbar-right-info {
+		display: none;
+	}
+	.header-bottom {
+		margin-top: 2px;
+	}
+	.header-top{
+		margin-bottom: 2px;
+	}
+	body.menu_open .menu-block{
+		left: 0;
+	}
+	.menu-block{
+		position: fixed;
+		width: 240px;
+		top: 0;
+		left: -300px;
+		bottom: 0;
+		background-color: rgba(0,0,0,0.9);
+		transition: all 0.7s cubic-bezier(.68,-0.55,.27,1.55) 0s;
+		z-index: 99;
+	}
+	.menu-block:before{
+		content: "";
+		position: absolute;
+		right: 0;
+		width: 10px;
+		top: 0;
+		bottom: 0;
+		background-color: var(--black);
+		filter: blur(10px);
+	}
+	.menu-block ul {
+		flex-direction: column;
+	}
+	.togglebtn{
+		display: flex;
+	}
+	.menu-block ul > li{
+		margin: 0;
+	}
+	.menu-block ul li a {
+		padding: 8px 15px;
+		border-bottom: 1px solid rgba(255,255,255,0.4);
+	}
+	.menu-block ul li a:before{
+		animation-duration: 2s;
+	}
+	section {
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+	section.mylift-sec,
+	section.work-sec{
+		padding-top: 70px;
+		padding-bottom: 70px;
+	}
+	section.about-me-sec{
+		padding-bottom: 70px;
+	}
+	.mission-sec{
+		padding-bottom: 20px;
+	}
+	section.contact-sec{
+		padding-top: 70px;
+	}
+	.hi-left-block{
+		width: 100%;
+		order: 1;
+		margin-top: 30px;
+	}
+	.hi-right-block{
+		width: 100%;
+	}
+	
+	.header-bottom::after {
+		bottom: -2%;
+		transform: rotate(177deg);
+	}
+	.hi-left-block h1 {
+		font-size: 30px;
+		margin-bottom: 10px;
+	}
+	.hi-left-block h2 {
+		font-size: 22px;
+		margin-bottom: 6px;
+	}
+	.hi-left-block h3 {
+		font-size: 14px;
+	}
+	.hi-sec{
+		margin-top: -37px;
+	}
+	.header.fixed {
+		top: -38px;
+	}
+	.about-left{
+		width: 100%;
+		padding-right: 0;
+		padding-bottom: 30px;
+	}
+	.about-right {
+		width: 100%;
+		padding-left: 0;
+	}
+	.about-in-icon h5{
+		font-size: 12px;
+	}
+	.about-in-icon ul li {
+		margin-right: 23px;
+	}
+	.sec-heading {
+		padding-bottom: 30px;
+	}
+	.work-list ul li,
+	.whatido-block ul li {
+		width: 100%;
+	}
+	.work-list ul li:last-child,
+	.whatido-block ul li:last-child {
+		padding-bottom: 0;
+	}
+	.mylift-block > ul > li {
+		width: 100%;
+	}
+	.mylift-block > ul > li:empty::before{
+		left: calc(50% - 20px);
+		transform: translateX(-50%);
+	}
+	.hobbys > li {
+		font-size: 16px;
+	}
+	.contact-form form{
+		margin: 0;
+	}
+	.footer-info ul li{
+		width: 100%;
+		margin-bottom: 15px;
+	}
+	.footer-info ul li:last-child{
+		margin-bottom: 0px;
+	}
+	.contact-form form .field {
+		max-width: 100%;
+		padding: 0 0 0 0;
+	}
+	.footer-top {
+		padding-top: 40px;
+		padding-bottom: 40px;
+		position: relative;
+	}
+	.footer-bottom p {
+		font-size: 12px;
+	}
+	.footer-bottom {
+		padding-bottom: 10px;
+		padding-top: 10px;
+	}
+	.mission-info > .missionimg {
+		width: 45%;
+		top: -150px;
+		right: 0;
+	}
+	.field.message > textarea {
+		height: 100px;
+		padding-top: 0;
+	}
+	.btn, button {
+		font-size: 14px;
+	}
+	.or-follows li {
+		display: inline-block;
+		margin-right: 7px;
+	}
+	.or-follows li a {
+		width: 44px;
+		height: 44px;
+		line-height: 44px;
+		font-size: 20px;
+	}
+	.mylift-block > ul > li h3 {
+		font-size: 16px;
+		margin-bottom: 5px;
+	}
+	.lendingscreen-text h4{
+		font-size: 6vw;
+	}	
+	.lendingscreen-text p{
+		font-size: 4vw;
+	}
+	.hi-sec {
+	    height: calc(100vh - 97px);
+	}
+	.footer-info ul li a{
+		font-size: 14px;
+	}
+	span.developer-emoji {
+	    width: 7%;
+	}
+}
